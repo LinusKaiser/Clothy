@@ -34,7 +34,7 @@ func addieren(x: Int?,y: Int?) -> Int?{
 // if let
 
 var alter: Int?
-alter = 19
+alter = 222
 
 
 
