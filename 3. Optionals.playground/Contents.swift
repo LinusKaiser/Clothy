@@ -1,5 +1,5 @@
 //optionals
-//optionals 
+//optionals fjaksödf
 var fehlerCode: Int?
 fehlerCode = nil
 
