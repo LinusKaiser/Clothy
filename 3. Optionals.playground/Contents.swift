@@ -1,6 +1,5 @@
-// HEllO
 //optionals
-
+//optionals 
 var fehlerCode: Int?
 fehlerCode = nil
 
