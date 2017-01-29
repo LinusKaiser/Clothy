@@ -1,29 +1,5 @@
 //optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf
-//optionals
-//optionals fjaksödf//optionals
-//optionals fjaksödf
+
 var fehlerCode: Int?
 fehlerCode = nil
 
