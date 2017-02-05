@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7Mk-Ut-JxZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7Mk-Ut-JxZ">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="1080" y="1635"/>
         </scene>
-        <!--Clothe-->
+        <!--Closet-->
         <scene sceneID="diZ-Bl-XZI">
             <objects>
-                <viewController id="xPH-3Q-R2Q" customClass="Clothe" customModule="Clothy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xPH-3Q-R2Q" customClass="Closet" customModule="Clothy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aRK-x1-9jV"/>
                         <viewControllerLayoutGuide type="bottom" id="Isc-K5-kst"/>
@@ -81,6 +81,10 @@
                                         <rect key="frame" x="376" y="26" width="22" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <connections>
+                                            <action selector="addNewClothe:" destination="xPH-3Q-R2Q" eventType="touchUpInside" id="rCV-jP-16p"/>
+                                            <action selector="addOutfitButton:" destination="xPH-3Q-R2Q" eventType="touchUpInside" id="xhC-zq-Ek5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

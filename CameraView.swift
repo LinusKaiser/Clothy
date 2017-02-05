@@ -10,23 +10,15 @@ import Foundation
 import UIKit
 
 
-class clothe: UIViewController {
+class CameraView: UIViewController {
     
     let cameraManager = CameraManager()
-    
-    @IBOutlet weak var cameraView: UIView!
-    
-    @IBOutlet weak var cameraButton: UIButton!
-    @IBOutlet weak var flashModeButton: UIButton!
-    
-    @IBOutlet weak var askForPermissionsButton: UIButton!
-    @IBOutlet weak var askForPermissionsLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        cameraManager.showAccessPermissionPopupAutomatically = false
+        
         
         askForPermissionsButton.isHidden = true
         askForPermissionsLabel.isHidden = true
@@ -67,3 +59,13 @@ class clothe: UIViewController {
     
     
 }
+
+
+
+
+
+
+
+
+
+
