@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -69,29 +70,33 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9g-ud-xIV">
-                                        <rect key="frame" x="182" y="26" width="50" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <gestureRecognizers/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="highlightedColor" red="0.68481582679999997" green="1" blue="0.98258270849999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19V-ae-F44">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19V-ae-F44">
                                         <rect key="frame" x="376" y="26" width="22" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <connections>
                                             <action selector="addNewClothe:" destination="xPH-3Q-R2Q" eventType="touchUpInside" id="rCV-jP-16p"/>
                                             <action selector="addOutfitButton:" destination="xPH-3Q-R2Q" eventType="touchUpInside" id="xhC-zq-Ek5"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clothy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWI-Cs-OuS">
+                                        <rect key="frame" x="182" y="27" width="51" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.68481582679985498" green="1" blue="0.98258270854566832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="XWI-Cs-OuS" firstAttribute="leading" secondItem="8JW-Vx-ri4" secondAttribute="leadingMargin" constant="162" id="NLt-a9-unt"/>
+                            <constraint firstItem="19V-ae-F44" firstAttribute="top" secondItem="aRK-x1-9jV" secondAttribute="bottom" constant="6" id="i0f-mM-nRB"/>
+                            <constraint firstItem="XWI-Cs-OuS" firstAttribute="top" secondItem="aRK-x1-9jV" secondAttribute="bottom" constant="7" id="imc-HI-lAR"/>
+                            <constraint firstItem="XWI-Cs-OuS" firstAttribute="centerX" secondItem="8JW-Vx-ri4" secondAttribute="centerX" id="lV8-6P-bYA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="19V-ae-F44" secondAttribute="trailing" constant="-4" id="v3r-CX-FkI"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Clothe Icon" id="ei3-i0-dMG">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>

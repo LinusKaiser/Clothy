@@ -11,7 +11,7 @@ import UIKit
 
 
 class CameraView: UIViewController {
-    
+/*
     let cameraManager = CameraManager()
     
     
@@ -50,7 +50,7 @@ class CameraView: UIViewController {
         cameraManager.stopCaptureSession()
     }
     
-    
+*/    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

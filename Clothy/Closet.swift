@@ -37,7 +37,24 @@ struct Clothe{
     var secondOccasion: String
     var firstColor: ClotheColors
     var secondColor: ClotheColors
-    
-    
-    
+    var clothePicture: Picture
+    var popularity: Int
 }
+
+/// Das Bild was im Kleiderschrank angezeigt wird
+struct Picture {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
