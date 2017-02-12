@@ -25,6 +25,11 @@ class Closet: UIViewController {
     }
     
     @IBAction func addNewClothe(_ sender: Any) {
+       
+        let addPClothe = Clothe(typeOfClothe: "", firstOccasion: "", secondOccasion: "", firstColor: , secondColor: ClotheColors, clothePicture: Picture, popularity: 0)
+        let addClothe = addPClothe
+        
+        closet.append(addClothe)
         
     }
     
@@ -39,11 +44,21 @@ struct Clothe{
     var secondColor: ClotheColors
     var clothePicture: Picture
     var popularity: Int
+    
+    init(typeOfClothe: String, firstOccasion: String, secondOccasion: String, firstColor: ClotheColors, secondColor: ClotheColors, clothePicture: Picture, popularity: Int) {
+        self.typeOfClothe = typeOfClothe
+        self.firstOccasion = firstOccasion
+        self.secondOccasion = secondOccasion
+        self.firstColor = firstColor
+        self.secondColor = secondColor
+        self.clothePicture = clothePicture
+        self.popularity = popularity
+    }
 }
 
 /// Das Bild was im Kleiderschrank angezeigt wird
 struct Picture {
-
+    
 }
 
 
