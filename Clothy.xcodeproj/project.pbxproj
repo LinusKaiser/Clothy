@@ -15,6 +15,7 @@
 		97932E211E1096F300182D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97932E1F1E1096F300182D23 /* LaunchScreen.storyboard */; };
 		97932E2C1E1096F300182D23 /* ClothyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97932E2B1E1096F300182D23 /* ClothyTests.swift */; };
 		97932E371E1096F300182D23 /* ClothyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97932E361E1096F300182D23 /* ClothyUITests.swift */; };
+		97B5DBD51E59F8C100E3FA7C /* ClosetCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B5DBD41E59F8C100E3FA7C /* ClosetCollectionView.swift */; };
 		97C9DCC61E16A79E0028A0C7 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C9DCC51E16A79E0028A0C7 /* images.xcassets */; };
 		97C9DCD21E16B72C0028A0C7 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9DCD11E16B72C0028A0C7 /* StartScreen.swift */; };
 		97C9DCD61E16B7480028A0C7 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9DCD51E16B7480028A0C7 /* Generator.swift */; };
@@ -54,6 +55,7 @@
 		97932E321E1096F300182D23 /* ClothyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClothyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97932E361E1096F300182D23 /* ClothyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothyUITests.swift; sourceTree = "<group>"; };
 		97932E381E1096F300182D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B5DBD41E59F8C100E3FA7C /* ClosetCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosetCollectionView.swift; sourceTree = "<group>"; };
 		97C9DCC51E16A79E0028A0C7 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		97C9DCD11E16B72C0028A0C7 /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 		97C9DCD51E16B7480028A0C7 /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				97C9DCD51E16B7480028A0C7 /* Generator.swift */,
 				97EB1E8B1E47956B00AF3B08 /* ColorValues.swift */,
 				97932E1A1E1096F300182D23 /* Main.storyboard */,
+				97B5DBD41E59F8C100E3FA7C /* ClosetCollectionView.swift */,
 				97932E1D1E1096F300182D23 /* Assets.xcassets */,
 				97C9DCC51E16A79E0028A0C7 /* images.xcassets */,
 				97932E1F1E1096F300182D23 /* LaunchScreen.storyboard */,
@@ -287,6 +290,7 @@
 				97932E171E1096F300182D23 /* AppDelegate.swift in Sources */,
 				97C9DCD61E16B7480028A0C7 /* Generator.swift in Sources */,
 				971DFB6C1E3A5F96002854B7 /* CameraView.swift in Sources */,
+				97B5DBD51E59F8C100E3FA7C /* ClosetCollectionView.swift in Sources */,
 				97EB1E8E1E47C77800AF3B08 /* Closet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

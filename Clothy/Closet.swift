@@ -6,34 +6,15 @@
 //  Copyright © 2016 Linus Kaiser. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 
-class Closet: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class Closet: UIViewController /*, UICollectionViewDelegate, UICollectionViewDataSource*/{
+
+    @IBOutlet weak var ClosetCollectionView: UICollectionView!
     
     let closet: [Clothe] = []
-    
-    @IBOutlet weak var tshirtCloset: UICollectionView!
-    
-    @IBOutlet weak var hosenCloset: UICollectionView!
-    
-    @IBOutlet weak var kleidungsStück: UIPickerView!
-    
-    
-    
-    
-    
-    
-    
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -43,15 +24,22 @@ class Closet: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func addNewClothe(_ sender: Any) {
-       
-        
-        
-        
+/*
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return images.count
     }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+       
+    
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "closetcollection_cell", for: IndexPath) as! ClosetCollectionView
+        cell.clothingImage.image = UIImage(named: images[indexPath.row])
+        return cell
+    }
+   */ 
 }
+
+
 
 /// Datentyp des einzelnen Kleidungsstücks
 struct Clothe{
