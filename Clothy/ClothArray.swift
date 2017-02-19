@@ -20,59 +20,64 @@ class ClothArray: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    var tshirtArray: [Tshirt] = []
+    var pantsArray: [Pants] = []
+    var jacketArray: [Jacket] = []
+    var shoeArray: [Shoe] = []
+    
     class Clothing{
         var brand: String
         var color: String
         
-        init() {
+        init(brand: String, color: String) {
             self.brand = brand
             self.color = color 
         }
         
         ///Fügt dem entsprechenden Kleidungsarray ein neues Kleidungsstück hinzu
-        func createClothing() {
+        func addClothing(type: Clothing) {
+            
+            
+            
             switch type {
-            case tshirt:
+            case is Tshirt:
                 tshirtArray.append()
-            case pants:
+            case is Pants:
                 pantsArray.append()
-            case jacket:
+            case is Jacket:
                 jacketArray.append()
-            case shoe:
+            case is Shoe:
                 shoeArray.append()
             default:
                 ()
             }
-        
-        
+    
+    
+    }
+}
+    
     }
     
     /// Datentyp von Tshirts
-    struct tshirt: Clothing{
+    struct Tshirt: Clothing{
         
     }
     
     /// Datentyp von Hosen
-    struct pants: Clothing{
+    struct Pants: Clothing{
         
     }
     
     /// Datentyp von Jacken
-    struct jacket: Clothing{
+    struct Jacket: Clothing{
         
     }
     
     
     /// Datentyp von Schuhen
-    struct shoe: Clothing{
-    
-    }
-
-        let tshirtArray: [tshirts] = []
-        let pantsArray: [pants] = []
-        let tshirtArray: [jacket] = []
-        let tshirtArray: [shoe] = []
-    
-    
+    struct Shoe: Clothing{
+        
 }
+
+
 
