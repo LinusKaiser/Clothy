@@ -9,11 +9,31 @@
 import Foundation
 import UIKit
 
-class Closet: UIViewController {
+
+class Closet: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     let closet: [Clothe] = []
     
+    @IBOutlet weak var tshirtCloset: UICollectionView!
     
+    @IBOutlet weak var hosenCloset: UICollectionView!
+    
+    @IBOutlet weak var kleidungsStück: UIPickerView!
+    
+    
+    
+    
+    
+    
+    
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,10 +46,8 @@ class Closet: UIViewController {
     
     @IBAction func addNewClothe(_ sender: Any) {
        
-        let addPClothe = Clothe(typeOfClothe: "", firstOccasion: "", secondOccasion: "", firstColor: , secondColor: ClotheColors, clothePicture: Picture, popularity: 0)
-        let addClothe = addPClothe
         
-        closet.append(addClothe)
+        
         
     }
     
