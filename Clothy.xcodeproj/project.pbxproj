@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		971DFB6C1E3A5F96002854B7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971DFB6B1E3A5F96002854B7 /* CameraView.swift */; };
 		97932E171E1096F300182D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97932E161E1096F300182D23 /* AppDelegate.swift */; };
-		97932E191E1096F300182D23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97932E181E1096F300182D23 /* ViewController.swift */; };
+		97932E191E1096F300182D23 /* ClothArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97932E181E1096F300182D23 /* ClothArray.swift */; };
 		97932E1C1E1096F300182D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97932E1A1E1096F300182D23 /* Main.storyboard */; };
 		97932E1E1E1096F300182D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97932E1D1E1096F300182D23 /* Assets.xcassets */; };
 		97932E211E1096F300182D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97932E1F1E1096F300182D23 /* LaunchScreen.storyboard */; };
@@ -43,7 +43,7 @@
 		971DFB6B1E3A5F96002854B7 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ../CameraView.swift; sourceTree = "<group>"; };
 		97932E131E1096F300182D23 /* Clothy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clothy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97932E161E1096F300182D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97932E181E1096F300182D23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97932E181E1096F300182D23 /* ClothArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothArray.swift; sourceTree = "<group>"; };
 		97932E1B1E1096F300182D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97932E1D1E1096F300182D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97932E201E1096F300182D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				97932E161E1096F300182D23 /* AppDelegate.swift */,
-				97932E181E1096F300182D23 /* ViewController.swift */,
+				97932E181E1096F300182D23 /* ClothArray.swift */,
 				97C9DCD11E16B72C0028A0C7 /* StartScreen.swift */,
 				971DFB6B1E3A5F96002854B7 /* CameraView.swift */,
 				97EB1E8D1E47C77800AF3B08 /* Closet.swift */,
@@ -283,7 +283,7 @@
 			files = (
 				97C9DCD21E16B72C0028A0C7 /* StartScreen.swift in Sources */,
 				97EB1E8C1E47956B00AF3B08 /* ColorValues.swift in Sources */,
-				97932E191E1096F300182D23 /* ViewController.swift in Sources */,
+				97932E191E1096F300182D23 /* ClothArray.swift in Sources */,
 				97932E171E1096F300182D23 /* AppDelegate.swift in Sources */,
 				97C9DCD61E16B7480028A0C7 /* Generator.swift in Sources */,
 				971DFB6C1E3A5F96002854B7 /* CameraView.swift in Sources */,
