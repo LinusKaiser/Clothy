@@ -37,7 +37,7 @@ class ClothArray: UIViewController {
         ///Fügt dem entsprechenden Kleidungsarray ein neues Kleidungsstück hinzu
         func addClothing(type: Clothing) {
             
-            
+          /*
             
             switch type {
             case is Tshirt:
@@ -51,7 +51,7 @@ class ClothArray: UIViewController {
             default:
                 ()
             }
-    
+    */
     
     }
 }
@@ -59,23 +59,23 @@ class ClothArray: UIViewController {
     }
     
     /// Datentyp von Tshirts
-    struct Tshirt: Clothing{
+    struct Tshirt{
         
     }
     
     /// Datentyp von Hosen
-    struct Pants: Clothing{
+    struct Pants{
         
     }
     
     /// Datentyp von Jacken
-    struct Jacket: Clothing{
+    struct Jacket{
         
     }
     
     
     /// Datentyp von Schuhen
-    struct Shoe: Clothing{
+    struct Shoe{
         
 }
 
