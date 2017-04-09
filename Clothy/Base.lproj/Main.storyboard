@@ -131,9 +131,9 @@
                                         <rect key="frame" x="376" y="26" width="22" height="22"/>
                                         <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <connections>
+                                            <action selector="addClothing:" destination="xPH-3Q-R2Q" eventType="touchUpInside" id="GkA-JU-Nxv"/>
                                             <action selector="addNewClothe:" destination="xPH-3Q-R2Q" eventType="touchUpInside" id="rCV-jP-16p"/>
                                             <action selector="addOutfitButton:" destination="xPH-3Q-R2Q" eventType="touchUpInside" id="xhC-zq-Ek5"/>
-                                            <segue destination="WM7-Ar-BIp" kind="push" id="9bz-Bj-434"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -167,11 +167,12 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="ClosetCollectionView" destination="Aq4-zi-bmN" id="RQa-bR-Fbw"/>
+                        <segue destination="WM7-Ar-BIp" kind="show" identifier="goToCameraView" id="zmX-eH-LSP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Brk-f9-2gJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079.7101449275362" y="282.88043478260875"/>
+            <point key="canvasLocation" x="1080" y="283"/>
         </scene>
         <!--Camera View-->
         <scene sceneID="AVG-U1-tho">
@@ -208,7 +209,7 @@
         <!--Image View Controller-->
         <scene sceneID="fct-EJ-vwl">
             <objects>
-                <viewController id="kTo-UD-Otb" customClass="ImageViewController" customModule="Clothy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotoVC" id="kTo-UD-Otb" customClass="ImageViewController" customModule="Clothy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eie-ES-KxF"/>
                         <viewControllerLayoutGuide type="bottom" id="Wfk-TU-Ic7"/>

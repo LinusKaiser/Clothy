@@ -67,7 +67,7 @@ class CameraView: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate
             captureSession.commitConfiguration()
             
             
-            let queue = DispatchQueue(label: "com.brianadvent.captureQueue")
+            let queue = DispatchQueue(label: "Application.Clothy")
             dataOutput.setSampleBufferDelegate(self, queue: queue)
             
             

@@ -114,14 +114,14 @@
 			isa = PBXGroup;
 			children = (
 				97932E161E1096F300182D23 /* AppDelegate.swift */,
-				97932E181E1096F300182D23 /* ClothArray.swift */,
-				97C9DCD11E16B72C0028A0C7 /* StartScreen.swift */,
-				97EB1E8D1E47C77800AF3B08 /* Closet.swift */,
-				97C9DCD51E16B7480028A0C7 /* Generator.swift */,
 				97EB1E8B1E47956B00AF3B08 /* ColorValues.swift */,
+				97932E181E1096F300182D23 /* ClothArray.swift */,
 				97B5DBD41E59F8C100E3FA7C /* ClosetCollectionView.swift */,
-				971DFB6B1E3A5F96002854B7 /* ImageViewController.swift */,
+				97EB1E8D1E47C77800AF3B08 /* Closet.swift */,
+				97C9DCD11E16B72C0028A0C7 /* StartScreen.swift */,
+				97C9DCD51E16B7480028A0C7 /* Generator.swift */,
 				977A89491E5B699500A93B4A /* CameraView.swift */,
+				971DFB6B1E3A5F96002854B7 /* ImageViewController.swift */,
 				97932E1A1E1096F300182D23 /* Main.storyboard */,
 				97932E1D1E1096F300182D23 /* Assets.xcassets */,
 				97C9DCC51E16A79E0028A0C7 /* images.xcassets */,
@@ -449,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4CQQ259Q55;
 				INFOPLIST_FILE = Clothy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Application.Clothy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4CQQ259Q55;
 				INFOPLIST_FILE = Clothy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Application.Clothy;
 				PRODUCT_NAME = "$(TARGET_NAME)";

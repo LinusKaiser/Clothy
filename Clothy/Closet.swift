@@ -24,6 +24,11 @@ class Closet: UIViewController /*, UICollectionViewDelegate, UICollectionViewDat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func addClothing(_ sender: UIButton) {
+   
+        performSegue(withIdentifier: "goToCameraView", sender: self)
+        
+    }
 /*
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return images.count
